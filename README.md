@@ -31,11 +31,7 @@ High leve description of steps in the rule:
      b. if the sprint is active (open) then send 'removed' notification
 
 We have two IFs to cover the scenario:
-
-
-  from: closed-sprint, active-sprint
-  to:   closed-sprint, future-sprint
-
+  from: [closed-sprint, active-sprint] to [closed-sprint, future-sprint]
 
 We don't know the changed sprint is active or future until we fetch the sprint record. Also, having two IFs will cover the parallel sprint scenario where we can have more than one active sprint at the same time.
 
