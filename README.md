@@ -21,8 +21,11 @@ High leve description of steps in the rule:
 4. removedSprintId = mergedList - toList
 5. addedSprintId = mergedList - fromList
 6. if a sprint was added then
+
      a. get the added sprint record via REST API
+
      b. if the sprint is active (open) then send 'add' notification
+
 7. if a sprint was removed then
      a. get the removed sprint record via REST API
      b. if the sprint is active (open) then send 'removed' notification
