@@ -1,9 +1,9 @@
 # a4j-send-notification-add-remove-issue-sprint
-"Automation for Jira" rule that sends notification when an issue is added or removed from a sprint
+"Automation for Jira" rule that sends notification when an issue is added or removed from an Open sprint
 
 The solution works in both Jira Data Center and Cloud versions. 
 
-Premise 
+## Premise 
 a. This has not been tested with parallel sprints enabled
 b. There can be only one sprint change per rule triggered.  
 c. The UI and REST API allow only one sprint change per issue update.
@@ -15,7 +15,7 @@ When sprint has changed the A4J smart value fieldChange will have the following:
 "{{fieldChange.from}}"  = the issue's previous sprint IDs 
 "{{fieldChange.to}}"    = the issue's current sprint IDs
 
-High leve description of steps in the rule:
+## High level description of steps in the rule:
 
 1. fromList = list of previous sprints
 2. toList = list of current sprints
@@ -37,10 +37,22 @@ We have two IFs to cover the scenario:
 
 We don't know the changed sprint is active or future until we fetch the sprint record. Also, having two IFs will cover the parallel sprint scenario where we can have more than one active sprint at the same time.
 
+## Files
 
+### Jira Data Center version
+- dc-a4j-rule-send-notification-when-issue-add-remove-from-open-sprint.json - exported rule
+- dc-a4j-rule-send-notification-when-issue-add-remove-from-open-sprint-demo.mp4 - demo video (low res)
+- dc-rule-part-[123]-of-3.png - screenshot of rules
 
+### Jira Cloud version
+- cloud-a4j-rule-send-notification-when-issue-add-remove-from-open-sprint.json - exported rule
 
+## Demo videos
 
+### Jira Data Center
+[![Jira Data Center Demo](https://img.youtube.com/vi/uAXXAUwJA9c/maxresdefault.jpg)](https://youtu.be/uAXXAUwJA9c)
 
+### Jira Cloud
+[![Jira Cloud Demo](https://img.youtube.com/vi/DYwTEXxO5oo/maxresdefault.jpg)](https://youtu.be/DYwTEXxO5oo)
 
 
