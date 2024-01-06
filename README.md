@@ -41,7 +41,6 @@ We don't know the changed sprint is active or future until we fetch the sprint r
 
 ### Jira Data Center version
 - dc-a4j-rule-send-notification-when-issue-add-remove-from-open-sprint.json - exported rule
-- dc-a4j-rule-send-notification-when-issue-add-remove-from-open-sprint-demo.mp4 - demo video (low res)
 - dc-rule-part-[123]-of-3.png - screenshot of rules
 
 ### Jira Cloud version
