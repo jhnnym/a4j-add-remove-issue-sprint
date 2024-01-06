@@ -1,6 +1,8 @@
 # a4j-send-notification-add-remove-issue-sprint
 "Automation for Jira" rule that sends notification when an issue is added or removed from a sprint
 
+The solution works in both Jira Data Center and Cloud versions. 
+
 Premise 
 a. This has not been tested with parallel sprints enabled
 b. There can be only one sprint change per rule triggered.  
