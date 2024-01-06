@@ -50,9 +50,9 @@ We don't know the changed sprint is active or future until we fetch the sprint r
 ## Demo videos
 
 ### Jira Data Center
-[![Jira Data Center Demo](https://img.youtube.com/vi/uAXXAUwJA9c/maxresdefault.jpg)](https://youtu.be/uAXXAUwJA9c)
+[![Jira Data Center Demo](https://img.youtube.com/vi/uAXXAUwJA9c/maxresdefault.jpg)](https://youtu.be/uAXXAUwJA9c?vq=hd1080)
 
 ### Jira Cloud
-[![Jira Cloud Demo](https://img.youtube.com/vi/DYwTEXxO5oo/maxresdefault.jpg)](https://youtu.be/DYwTEXxO5oo)
+[![Jira Cloud Demo](https://img.youtube.com/vi/DYwTEXxO5oo/maxresdefault.jpg)](https://youtu.be/DYwTEXxO5oo?vq=hd1080)
 
 
